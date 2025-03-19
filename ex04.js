@@ -1,5 +1,5 @@
 function trouverPersonne(personnes, nom) {
-    return personnes[1]
+    return personnes.find(personne => personne.nom === nom);
 }
 
 // Tests
